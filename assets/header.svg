@@ -1,0 +1,60 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="20" x2="930" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#111A35"/>
+      <stop offset="1" stop-color="#07151C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="215" y1="65" x2="800" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="0.52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientTransform="translate(175 65) rotate(37) scale(260 180)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientTransform="translate(835 248) rotate(-145) scale(300 190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#9FB6D0" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1000" height="300" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <rect width="1000" height="300" fill="url(#glowPurple)"/>
+    <rect width="1000" height="300" fill="url(#glowCyan)"/>
+
+    <circle cx="78" cy="62" r="3" fill="#A78BFA" filter="url(#softGlow)"/>
+    <circle cx="922" cy="78" r="3" fill="#22D3EE" filter="url(#softGlow)"/>
+    <circle cx="895" cy="225" r="2" fill="#5EEAD4"/>
+    <path d="M42 244C152 194 193 273 302 223" stroke="url(#accent)" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M718 53C807 19 866 86 970 45" stroke="url(#accent)" stroke-opacity="0.18" stroke-width="2"/>
+
+    <rect x="383" y="34" width="234" height="32" rx="16" fill="#111827" fill-opacity="0.84" stroke="url(#accent)" stroke-opacity="0.38"/>
+    <circle cx="408" cy="50" r="4" fill="#34D399" filter="url(#softGlow)"/>
+    <text x="430" y="55" fill="#D7E2F2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">PLAN • BUILD • SHIP</text>
+
+    <text x="500" y="146" text-anchor="middle" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="8">DAIME</text>
+    <text x="500" y="181" text-anchor="middle" fill="#D9E4F2" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">PYTHON BACKEND • TELEGRAM • INFRASTRUCTURE</text>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#BFD2E8">
+      <rect x="311" y="211" width="86" height="30" rx="8" fill="#101827" stroke="#8B5CF6" stroke-opacity="0.55"/><text x="354" y="231" text-anchor="middle">FASTAPI</text>
+      <rect x="410" y="211" width="96" height="30" rx="8" fill="#101827" stroke="#38BDF8" stroke-opacity="0.55"/><text x="458" y="231" text-anchor="middle">POSTGRES</text>
+      <rect x="519" y="211" width="82" height="30" rx="8" fill="#101827" stroke="#22D3EE" stroke-opacity="0.55"/><text x="560" y="231" text-anchor="middle">DOCKER</text>
+      <rect x="614" y="211" width="75" height="30" rx="8" fill="#101827" stroke="#2DD4BF" stroke-opacity="0.55"/><text x="651.5" y="231" text-anchor="middle">NGINX</text>
+    </g>
+
+    <text x="500" y="274" text-anchor="middle" fill="#7388A3" font-family="Consolas, monospace" font-size="12">github.com/DAIME72</text>
+  </g>
+  <rect x="1" y="1" width="998" height="298" rx="23" stroke="url(#accent)" stroke-opacity="0.32" stroke-width="2"/>
+</svg>
