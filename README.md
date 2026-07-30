@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="DAIME — Python Backend, Telegram and Infrastructure" />
+  <img src="./assets/header.png" width="100%" alt="DAIME — Python Backend, Telegram and Infrastructure" />
 </p>
 
 <p align="center">
