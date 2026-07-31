@@ -27,7 +27,7 @@ I build production-minded Python services: Telegram products, backend APIs, paym
       <p><code>Python</code> <code>Aiogram</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>TON API</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://t.me/RedStoneVPN_bot">🔴 RedStone</a></h3>
+      <h3><a href="https://t.me/RedStoneVPN_bot">🔴 RedStoneVPN</a></h3>
       <p>Subscription and payment flow with temporary access, webhooks, server integrations, safe deployment, backups and localized connection pages.</p>
       <p><code>Python</code> <code>FastAPI</code> <code>Docker</code> <code>Nginx</code> <code>Linux</code></p>
     </td>
