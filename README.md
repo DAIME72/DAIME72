@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/DAIME72?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-OPEN-8B5CF6?style=for-the-badge&labelColor=0B1020" alt="Projects" /></a>
   <img src="https://img.shields.io/badge/OPEN_TO_WORK-YES-2DD4BF?style=for-the-badge&labelColor=0B1020" alt="Open to work" />
-  <img src="https://img.shields.io/badge/SAINT_PETERSBURG-RU-38BDF8?style=for-the-badge&labelColor=0B1020" alt="Saint Petersburg" />
+  <img src="https://img.shields.io/badge/MARS-RU-38BDF8?style=for-the-badge&labelColor=0B1020" alt="Saint Petersburg" />
 </p>
 
 ## About me
