@@ -22,19 +22,19 @@ I build production-minded Python services: Telegram products, backend APIs, paym
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ Gift Guarant</h3>
+      <h3><a href="https://t.me/grntrobot">🛡️ Gift Guarant</a></h3>
       <p>Telegram escrow service for TON with per-deal addresses, on-chain payment verification, atomic state transitions and duplicate-payout protection.</p>
       <p><code>Python</code> <code>Aiogram</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>TON API</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔴 RedStoneVPN</h3>
+      <h3><a href="https://t.me/RedStoneVPN_bot">🔴 RedStone</a></h3>
       <p>Subscription and payment flow with temporary access, webhooks, server integrations, safe deployment, backups and localized connection pages.</p>
       <p><code>Python</code> <code>FastAPI</code> <code>Docker</code> <code>Nginx</code> <code>Linux</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌍 Status Map</h3>
+      <h3><a href="https://testpayment.redstonemedia.ru/status-map">🌍 Status Map</a></h3>
       <p>Responsive server-status visualization with a WebGL globe on desktop and a lightweight DOM renderer on mobile.</p>
       <p><code>JavaScript</code> <code>globe.gl</code> <code>HTML</code> <code>CSS</code> <code>i18n</code></p>
     </td>
